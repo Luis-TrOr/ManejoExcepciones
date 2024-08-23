@@ -5,7 +5,6 @@ public class CaracterEn {
         if (posicion >= 0 && posicion < cadena.length()) {
             return cadena.charAt(posicion);
         } else {
-            // Excepción si la posicion es invalida
             throw new Exception("Posicion no valida: " + posicion + ". La longitud de la cadena es: " + cadena.length());
         }
     }
